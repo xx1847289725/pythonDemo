@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-#抖音去水印 pythonweb接口
 # -*- coding: utf-8 -*-
 # by vellhe 2020/10/21
 #pip安装下下面这些包例如 pip install Flask
