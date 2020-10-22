@@ -33,7 +33,8 @@ class Todo(Resource):
     def getUrl(string):
         url_arr = []
         for i in parseUrl(string):
-           url_arr.append(parseOneUrl(str(i).strip()))        return url_arr;
+           url_arr.append(parseOneUrl(str(i).strip()))        
+        return url_arr;
 
     # 解析单个链接
     @app.route('/douyin/', methods=['post'])
